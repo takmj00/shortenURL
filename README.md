@@ -11,12 +11,18 @@
 
 ## install project
 
-    git clone <본인repository>
+```bash
+git clone <본인repository>
+```
 
 ### install dependency
 
-    pip install "fastapi[all]"
+```bash
+pip install "fastapi[all]"
+```
 
 ## run app
 
-    uvicorn main:app --reload
+```bash
+uvicorn main:app --reload
+```
